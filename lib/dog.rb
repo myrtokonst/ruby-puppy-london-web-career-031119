@@ -11,6 +11,8 @@ class Dog
   end 
   
   def self.all
-   @@all.name.join(" ")
+   @@all.each do |dog|
+    puts "dog.name.join(" ")"
+  end 
   end 
 end 
