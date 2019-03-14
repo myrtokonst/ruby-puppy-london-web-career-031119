@@ -6,11 +6,11 @@ class Dog
     @@all << self 
   end 
   
-  def self.clear
+  def self.clear_all
     @all.clear
   end 
   
   def self.all
-    @@all
+   puts  @@all.join(" ")
   end 
 end 
