@@ -11,6 +11,6 @@ class Dog
   end 
   
   def self.all
-   puts  @@all.name.join(" ")
+   @@all.name.join(" ")
   end 
 end 
